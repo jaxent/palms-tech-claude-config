@@ -15,17 +15,17 @@ development teams. Built and maintained by Palms Technology Group.
 
 ## Directory Structure
 
-palms-tech/
-CLAUDE.md                    ← Team standards (commit this)
-.claude/
-commands/
-palm-review.md       ← /palm-review
-palm-ticket.md       ← /palm-ticket
-palm-deploy-check.md ← /palm-deploy-check
-src/
-CLAUDE.md                ← Source code specific rules
-docs/
-CLAUDE.md                ← Documentation specific rules
+- palms-tech/
+- CLAUDE.md                    ← Team standards (commit this)
+- .claude/
+- commands/
+- palm-review.md       ← /palm-review
+- palm-ticket.md       ← /palm-ticket
+- palm-deploy-check.md ← /palm-deploy-check
+- src/
+    - CLAUDE.md                ← Source code specific rules
+- docs/
+    - CLAUDE.md                ← Documentation specific rules
 
 
 ## Domains Covered
