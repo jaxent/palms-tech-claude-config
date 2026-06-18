@@ -66,9 +66,11 @@ Primary systems:
 ---
 
 ## MCP Server Connections
-<!-- Claude Code connects to these automatically -->
 
+### Active (connected)
 - **palms-hotel-mcp** — Grand Palms PMS data (reservations, inventory)
+
+### Planned (not yet connected — do not attempt to use)
 - **palms-loyalty-mcp** — Loyalty platform (profiles, points, tiers)
 - **palms-jira-mcp** — Ticket creation and project tracking
 - **palms-github-mcp** — PR creation, code review, branch management
