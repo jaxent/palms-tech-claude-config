@@ -25,11 +25,15 @@ Analyze the diff and categorize impact:
 - Encryption unchanged or explicitly reviewed?
 - Logging changes reviewed for PII exposure?
 - GDPR/CCPA impact assessed?
+- Must meet PCI compliance standards
 
 **API contract changes?**
 - Breaking changes to public endpoints?
 - Version bump applied?
 - Consumer teams notified?
+
+**UX Changes **
+- All dates displayed to user are in Property Local time
 
 ## 2. Deployment Risk Rating
 

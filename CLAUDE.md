@@ -191,6 +191,43 @@ Example:
 
 ---
 
+## Documentation Standards
+
+### Where Documentation Lives
+
+| Type | Location | Audience |
+|---|---|---|
+| Code-level docs | Docstrings + GitHub `/docs` | Developers |
+| Architecture decisions | Confluence — Engineering Space | Tech leads, architects |
+| Operational runbooks | Confluence — Operations Space | DevOps, on-call engineers |
+| API reference | GitHub `/docs/api` | Developers, integrators |
+| User guides | Confluence — Product Space | Business users, hotel staff |
+| Incident post-mortems | Confluence — Operations Space | Engineering, management |
+
+### Documentation Rules
+
+- All public APIs must have a corresponding GitHub doc before merge
+- Architecture Decision Records (ADRs) required for:
+  - New system integrations (PMS vendors, payment processors)
+  - Database schema changes affecting multiple services
+  - Security model changes
+  - New AI/agent workflow introductions
+- Runbooks required for any process that gets paged on-call
+- Confluence pages must be reviewed every 6 months — mark stale pages
+
+### ADR Format (Architecture Decision Records)
+
+    Title: ADR-NNNN: Short description
+    Date: YYYY-MM-DD
+    Status: Proposed | Accepted | Deprecated | Superseded
+    
+    Context: Why is this decision needed?
+    Decision: What did we decide?
+    Consequences: What are the tradeoffs?
+    Alternatives considered: What else did we evaluate?
+	
+---
+
 ## Contact and Escalation
 
 - Engineering Lead: @jaxent
