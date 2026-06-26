@@ -44,7 +44,7 @@ jobs:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           show_full_output: true
-          claude_args: "--max-turns 5 --model claude-sonnet-4-6"
+          claude_args: "--max-turns 10 --model claude-sonnet-4-6"
           prompt: |
             You are running as part of the Cobalt Hospitality Tech CI pipeline.
             Review this PR against our CLAUDE.md hospitality standards.
